@@ -1,4 +1,4 @@
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 
   const btnEmpezar = document.getElementById('btnEmpezar')
   const celeste = document.getElementById('celeste')
