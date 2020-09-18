@@ -1,8 +1,8 @@
-var btnEmpezar = document.getElementById('btnEmpezar')
-var celeste = document.getElementById('celeste')
-var violeta = document.getElementById('violeta')
-var naranja = document.getElementById('naranja')
-var verde = document.getElementById('verde')
+const btnEmpezar = document.getElementById('btnEmpezar')
+const celeste = document.getElementById('celeste')
+const violeta = document.getElementById('violeta')
+const naranja = document.getElementById('naranja')
+const verde = document.getElementById('verde')
 const ULTIMO_NIVEL = 10
   
   class Juego{
@@ -30,7 +30,7 @@ const ULTIMO_NIVEL = 10
     }
 
     toggleBtnEmpezar(){
-      if(btnEmpezar.classList.contains('hide')){//abc
+      if(btnEmpezar.classList.contains('hide')){//abc 
             btnEmpezar.classList.remove('hide')
       }else{
         btnEmpezar.classList.add('hide')
