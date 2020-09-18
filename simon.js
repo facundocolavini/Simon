@@ -1,5 +1,4 @@
 
-
   const btnEmpezar = document.getElementById('btnEmpezar')
   const celeste = document.getElementById('celeste')
   const violeta = document.getElementById('violeta')
