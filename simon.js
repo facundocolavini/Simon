@@ -30,7 +30,7 @@ const ULTIMO_NIVEL = 10
     }
 
     toggleBtnEmpezar(){
-      if(btnEmpezar.classList.contains('hide')){
+      if(btnEmpezar.classList.contains('hide')){//abc
             btnEmpezar.classList.remove('hide')
       }else{
         btnEmpezar.classList.add('hide')
